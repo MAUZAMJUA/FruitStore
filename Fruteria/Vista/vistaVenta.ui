@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>frm_venta</class>
+
+ <widget class="QFrame" name="frm_venta">
+
+  <property name="windowTitle">
+   <string>Venta</string>
+  </property>
+
+  <layout class="QVBoxLayout" name="mainLayout">
+
+   <!-- TITULO -->
+   <item>
+    <widget class="QLabel" name="label_titulo">
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>22</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+
+     <property name="text">
+      <string>VENTA</string>
+     </property>
+
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+
+   <!-- FORMULARIO -->
+   <item>
+    <layout class="QGridLayout" name="formLayout">
+
+     <item row="0" column="0">
+      <widget class="QLabel" name="lbl_id">
+       <property name="text">
+        <string>ID:</string>
+       </property>
+      </widget>
+     </item>
+
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="txt_id_venta"/>
+     </item>
+
+     <item row="1" column="0">
+      <widget class="QLabel" name="lbl_fecha">
+       <property name="text">
+        <string>Fecha:</string>
+       </property>
+      </widget>
+     </item>
+
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="txt_fecha_vendedor"/>
+     </item>
+
+     <item row="2" column="0">
+      <widget class="QLabel" name="lbl_hora">
+       <property name="text">
+        <string>Hora:</string>
+       </property>
+      </widget>
+     </item>
+
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="txt_hora_venta"/>
+     </item>
+
+     <item row="3" column="0">
+      <widget class="QLabel" name="lbl_vendedor">
+       <property name="text">
+        <string>ID Vendedor:</string>
+       </property>
+      </widget>
+     </item>
+
+     <item row="3" column="1">
+      <widget class="QComboBox" name="cmb_id_vendedor_venta"/>
+     </item>
+
+     <item row="4" column="0">
+      <widget class="QLabel" name="lbl_descuento">
+       <property name="text">
+        <string>Descuento:</string>
+       </property>
+      </widget>
+     </item>
+
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="txt_descuento_venta"/>
+     </item>
+
+    </layout>
+   </item>
+
+   <!-- BOTONES CRUD -->
+   <item>
+    <layout class="QHBoxLayout" name="buttonLayout">
+
+     <item>
+      <widget class="QPushButton" name="btn_insertar_venta">
+       <property name="text">
+        <string>Insertar</string>
+       </property>
+      </widget>
+     </item>
+
+     <item>
+      <widget class="QPushButton" name="btn_modificar_venta">
+       <property name="text">
+        <string>Modificar</string>
+       </property>
+      </widget>
+     </item>
+
+     <item>
+      <widget class="QPushButton" name="btn_vertodo_venta">
+       <property name="text">
+        <string>Ver Todo</string>
+       </property>
+      </widget>
+     </item>
+
+     <item>
+      <widget class="QPushButton" name="btn_eliminar_venta">
+       <property name="text">
+        <string>Eliminar</string>
+       </property>
+      </widget>
+     </item>
+
+    </layout>
+   </item>
+
+   <!-- BUSQUEDA -->
+   <item>
+    <layout class="QHBoxLayout" name="searchLayout">
+
+     <item>
+      <widget class="QLabel" name="label_buscar">
+       <property name="text">
+        <string>Buscar:</string>
+       </property>
+      </widget>
+     </item>
+
+     <item>
+      <widget class="QLineEdit" name="txt_buscar_venta"/>
+     </item>
+
+     <item>
+      <widget class="QPushButton" name="btn_buscar_venta">
+       <property name="text">
+        <string>BUSCAR</string>
+       </property>
+      </widget>
+     </item>
+
+    </layout>
+   </item>
+
+   <!-- TABLA -->
+   <item>
+    <widget class="QTableView" name="tbl_venta"/>
+   </item>
+
+  </layout>
+
+ </widget>
+
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>820</width>
+    <height>662</height>
+   </rect>
+  </property>
+
+  <property name="windowTitle">
+   <string>FruitStore</string>
+  </property>
+
+  <property name="minimumSize">
+   <size>
+    <width>820</width>
+    <height>662</height>
+   </size>
+  </property>
+
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayoutPrincipal">
+    <item>
+     <widget class="QFrame" name="frm_principal">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout"/>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+
+  <widget class="QMenuBar" name="menubar">
+
+   <widget class="QMenu" name="mnu_modulos">
+    <property name="title">
+     <string>Módulos</string>
+    </property>
+
+    <addaction name="act_abrir_categorias"/>
+    <addaction name="act_abrir_productos"/>
+    <addaction name="act_abrir_proveedores"/>
+    <addaction name="act_abrir_compras"/>
+    <addaction name="act_abrir_ventas"/>
+    <addaction name="act_abrir_vendedores"/>
+
+   </widget>
+
+   <addaction name="mnu_modulos"/>
+
+  </widget>
+
+  <widget class="QStatusBar" name="statusbar"/>
+
+  <!-- ACCIONES -->
+
+  <action name="act_abrir_categorias">
+   <property name="text">
+    <string>Categorías</string>
+   </property>
+  </action>
+
+  <action name="act_abrir_productos">
+   <property name="text">
+    <string>Productos</string>
+   </property>
+  </action>
+
+  <action name="act_abrir_proveedores">
+   <property name="text">
+    <string>Proveedores</string>
+   </property>
+  </action>
+
+  <action name="act_abrir_compras">
+   <property name="text">
+    <string>Compras</string>
+   </property>
+  </action>
+
+  <action name="act_abrir_ventas">
+   <property name="text">
+    <string>Ventas</string>
+   </property>
+  </action>
+
+  <action name="act_abrir_vendedores">
+   <property name="text">
+    <string>Vendedores</string>
+   </property>
+  </action>
+
+ </widget>
+
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>frm_vendedor</class>
+
+ <widget class="QFrame" name="frm_vendedor">
+
+  <property name="windowTitle">
+   <string>Vendedor</string>
+  </property>
+
+  <layout class="QVBoxLayout" name="mainLayout">
+
+   <!-- TITULO -->
+   <item>
+    <widget class="QLabel" name="label_titulo">
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>22</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>VENDEDOR</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+
+   <!-- FORMULARIO -->
+   <item>
+    <layout class="QGridLayout" name="formLayout">
+
+     <item row="0" column="0">
+      <widget class="QLabel" name="lbl_id">
+       <property name="text">
+        <string>ID:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="txt_id_vendedor"/>
+     </item>
+
+     <item row="1" column="0">
+      <widget class="QLabel" name="lbl_nombre">
+       <property name="text">
+        <string>Nombre:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="txt_nombre_vendedor"/>
+     </item>
+
+     <item row="2" column="0">
+      <widget class="QLabel" name="lbl_fecha_nacimiento">
+       <property name="text">
+        <string>Fecha Nacimiento:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="txt_fecha_nacimiento_vendedor"/>
+     </item>
+
+     <item row="3" column="0">
+      <widget class="QLabel" name="lbl_genero">
+       <property name="text">
+        <string>Género:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QComboBox" name="cmb_genero_vendedor">
+       <item>
+        <property name="text">
+         <string>Masculino</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Femenino</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+
+     <item row="4" column="0">
+      <widget class="QLabel" name="lbl_calle">
+       <property name="text">
+        <string>Calle:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="txt_calle_vendedor"/>
+     </item>
+
+     <item row="5" column="0">
+      <widget class="QLabel" name="lbl_exterior">
+       <property name="text">
+        <string>N° Exterior:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLineEdit" name="txt_n_exterior_vendedor"/>
+     </item>
+
+     <item row="6" column="0">
+      <widget class="QLabel" name="lbl_interior">
+       <property name="text">
+        <string>N° Interior:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLineEdit" name="txt_n_interior"/>
+     </item>
+
+     <item row="7" column="0">
+      <widget class="QLabel" name="lbl_colonia">
+       <property name="text">
+        <string>Colonia:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QLineEdit" name="txt_colonia_vendedor"/>
+     </item>
+
+     <item row="8" column="0">
+      <widget class="QLabel" name="lbl_cp">
+       <property name="text">
+        <string>Código Postal:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1">
+      <widget class="QLineEdit" name="txt_codigo_postal_vendedor"/>
+     </item>
+
+     <item row="9" column="0">
+      <widget class="QLabel" name="lbl_ciudad">
+       <property name="text">
+        <string>Ciudad:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="1">
+      <widget class="QLineEdit" name="txt_ciudad_vendedor"/>
+     </item>
+
+     <item row="10" column="0">
+      <widget class="QLabel" name="lbl_estado">
+       <property name="text">
+        <string>Estado:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="1">
+      <widget class="QLineEdit" name="txt_estado_vendedor"/>
+     </item>
+
+     <item row="11" column="0">
+      <widget class="QLabel" name="lbl_pais">
+       <property name="text">
+        <string>País:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="1">
+      <widget class="QLineEdit" name="txt_pais_vendedor"/>
+     </item>
+
+     <item row="12" column="0">
+      <widget class="QLabel" name="lbl_telefono">
+       <property name="text">
+        <string>Teléfono:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="1">
+      <widget class="QLineEdit" name="txt_telefono_vendedor"/>
+     </item>
+
+     <item row="13" column="0">
+      <widget class="QLabel" name="lbl_fecha_ingreso">
+       <property name="text">
+        <string>Fecha Ingreso:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="1">
+      <widget class="QLineEdit" name="txt_fecha_ingreso_vendedor"/>
+     </item>
+
+     <item row="14" column="0">
+      <widget class="QLabel" name="lbl_email">
+       <property name="text">
+        <string>Email:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="14" column="1">
+      <widget class="QLineEdit" name="txt_email_vendedor"/>
+     </item>
+
+     <item row="15" column="0">
+      <widget class="QLabel" name="lbl_estatus">
+       <property name="text">
+        <string>Estatus:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="15" column="1">
+      <widget class="QCheckBox" name="chb_estatus_vendedor">
+       <property name="text">
+        <string>ACTIVO</string>
+       </property>
+      </widget>
+     </item>
+
+    </layout>
+   </item>
+
+   <!-- BOTONES CRUD -->
+   <item>
+    <layout class="QHBoxLayout" name="buttonLayout">
+
+     <item>
+      <widget class="QPushButton" name="btn_insertar_vendedor">
+       <property name="text">
+        <string>Insertar</string>
+       </property>
+      </widget>
+     </item>
+
+     <item>
+      <widget class="QPushButton" name="btn_modificar_vendedor">
+       <property name="text">
+        <string>Modificar</string>
+       </property>
+      </widget>
+     </item>
+
+     <item>
+      <widget class="QPushButton" name="btn_vertodo_vendedor">
+       <property name="text">
+        <string>Ver Todo</string>
+       </property>
+      </widget>
+     </item>
+
+     <item>
+      <widget class="QPushButton" name="btn_eliminar_vendedor">
+       <property name="text">
+        <string>Eliminar</string>
+       </property>
+      </widget>
+     </item>
+
+    </layout>
+   </item>
+
+   <!-- BUSQUEDA -->
+   <item>
+    <layout class="QHBoxLayout" name="searchLayout">
+
+     <item>
+      <widget class="QLabel" name="label_buscar">
+       <property name="text">
+        <string>Buscar:</string>
+       </property>
+      </widget>
+     </item>
+
+     <item>
+      <widget class="QLineEdit" name="txt_buscar_vendedor"/>
+     </item>
+
+     <item>
+      <widget class="QPushButton" name="btn_buscar_vendedor">
+       <property name="text">
+        <string>BUSCAR</string>
+       </property>
+      </widget>
+     </item>
+
+    </layout>
+   </item>
+
+   <!-- TABLA -->
+   <item>
+    <widget class="QTableView" name="tbl_vendedor"/>
+   </item>
+
+  </layout>
+
+ </widget>
+
+ <resources/>
+ <connections/>
+</ui>

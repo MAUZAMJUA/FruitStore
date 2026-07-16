@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>frm_proveedor</class>
+
+ <widget class="QFrame" name="frm_proveedor">
+
+  <property name="windowTitle">
+   <string>Proveedor</string>
+  </property>
+
+  <layout class="QVBoxLayout" name="mainLayout">
+
+   <!-- TITULO -->
+   <item>
+    <widget class="QLabel" name="label_titulo">
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>22</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>PROVEEDOR</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+
+   <!-- FORMULARIO -->
+   <item>
+    <layout class="QGridLayout" name="formLayout">
+
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_id">
+       <property name="text">
+        <string>ID:</string>
+       </property>
+      </widget>
+     </item>
+
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="txt_id_proveedor"/>
+     </item>
+
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_nombre">
+       <property name="text">
+        <string>Nombre:</string>
+       </property>
+      </widget>
+     </item>
+
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="txt_nombre_proveedor"/>
+     </item>
+
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_razon_social">
+       <property name="text">
+        <string>Razón Social:</string>
+       </property>
+      </widget>
+     </item>
+
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="txt_razon_social_proveedor"/>
+     </item>
+
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_rfc">
+       <property name="text">
+        <string>RFC:</string>
+       </property>
+      </widget>
+     </item>
+
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="txt_RFC_proveedor"/>
+     </item>
+
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_direccion">
+       <property name="text">
+        <string>Dirección:</string>
+       </property>
+      </widget>
+     </item>
+
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="txt_direccion_proveedor"/>
+     </item>
+
+     <item row="5" column="0">
+      <widget class="QLabel" name="label_email">
+       <property name="text">
+        <string>Email:</string>
+       </property>
+      </widget>
+     </item>
+
+     <item row="5" column="1">
+      <widget class="QLineEdit" name="txt_email__proveedor"/>
+     </item>
+
+     <item row="6" column="0">
+      <widget class="QLabel" name="label_telefono">
+       <property name="text">
+        <string>Teléfono:</string>
+       </property>
+      </widget>
+     </item>
+
+     <item row="6" column="1">
+      <widget class="QLineEdit" name="txt_telefono_proveedor"/>
+     </item>
+
+     <item row="7" column="0">
+      <widget class="QLabel" name="label_celular">
+       <property name="text">
+        <string>Celular:</string>
+       </property>
+      </widget>
+     </item>
+
+     <item row="7" column="1">
+      <widget class="QLineEdit" name="txt_celular_proveedor"/>
+     </item>
+
+     <item row="8" column="0">
+      <widget class="QLabel" name="label_estatus">
+       <property name="text">
+        <string>Estatus:</string>
+       </property>
+      </widget>
+     </item>
+
+     <item row="8" column="1">
+      <widget class="QCheckBox" name="chb_estatus_proveedor">
+       <property name="text">
+        <string>ACTIVO</string>
+       </property>
+      </widget>
+     </item>
+
+    </layout>
+   </item>
+
+   <!-- BOTONES CRUD -->
+   <item>
+    <layout class="QHBoxLayout" name="buttonLayout">
+
+     <item>
+      <widget class="QPushButton" name="btn_insertar_proveedor">
+       <property name="text">
+        <string>Insertar</string>
+       </property>
+      </widget>
+     </item>
+
+     <item>
+      <widget class="QPushButton" name="btn_modificar_proveedor">
+       <property name="text">
+        <string>Modificar</string>
+       </property>
+      </widget>
+     </item>
+
+     <item>
+      <widget class="QPushButton" name="btn_vertodo_proveedor">
+       <property name="text">
+        <string>Ver Todo</string>
+       </property>
+      </widget>
+     </item>
+
+     <item>
+      <widget class="QPushButton" name="btn_eliminar_proveedor">
+       <property name="text">
+        <string>Eliminar</string>
+       </property>
+      </widget>
+     </item>
+
+    </layout>
+   </item>
+
+   <!-- BUSQUEDA -->
+   <item>
+    <layout class="QHBoxLayout" name="searchLayout">
+
+     <item>
+      <widget class="QLabel" name="label_buscar">
+       <property name="text">
+        <string>Buscar:</string>
+       </property>
+      </widget>
+     </item>
+
+     <item>
+      <widget class="QLineEdit" name="txt_buscar_proveedor"/>
+     </item>
+
+     <item>
+      <widget class="QPushButton" name="btn_buscar_proveedor">
+       <property name="text">
+        <string>BUSCAR</string>
+       </property>
+      </widget>
+     </item>
+
+    </layout>
+   </item>
+
+   <!-- TABLA -->
+   <item>
+    <widget class="QTableView" name="tbl_proveedor"/>
+   </item>
+
+  </layout>
+
+ </widget>
+
+ <resources/>
+ <connections/>
+</ui>

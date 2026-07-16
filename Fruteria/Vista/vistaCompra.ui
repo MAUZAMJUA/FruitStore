@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>frm_compra</class>
+
+ <widget class="QFrame" name="frm_compra">
+
+  <property name="windowTitle">
+   <string>Compra</string>
+  </property>
+
+  <layout class="QVBoxLayout" name="mainLayout">
+
+   <!-- TITULO -->
+   <item>
+    <widget class="QLabel" name="label_titulo">
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>22</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>COMPRA</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+
+   <!-- FORMULARIO -->
+   <item>
+    <layout class="QGridLayout" name="formLayout">
+
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_id">
+       <property name="text">
+        <string>ID:</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>Nirmala UI</family>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+      </widget>
+     </item>
+
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="txt_id_compra"/>
+     </item>
+
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_proveedor">
+       <property name="text">
+        <string>Proveedor:</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>Nirmala UI</family>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+      </widget>
+     </item>
+
+     <item row="1" column="1">
+      <widget class="QComboBox" name="cmb_proveedor_compra"/>
+     </item>
+
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_fecha">
+       <property name="text">
+        <string>Fecha:</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>Nirmala UI</family>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+      </widget>
+     </item>
+
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="txt_fecha_compra"/>
+     </item>
+
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_hora">
+       <property name="text">
+        <string>Hora:</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>Nirmala UI</family>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+      </widget>
+     </item>
+
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="txt_hora_compra"/>
+     </item>
+
+    </layout>
+   </item>
+
+   <!-- BOTONES CRUD -->
+   <item>
+    <layout class="QHBoxLayout" name="buttonLayout">
+
+     <item>
+      <widget class="QPushButton" name="btn_insertar_compra">
+       <property name="text">
+        <string>Insertar</string>
+       </property>
+      </widget>
+     </item>
+
+     <item>
+      <widget class="QPushButton" name="btn_modificar_compra">
+       <property name="text">
+        <string>Modificar</string>
+       </property>
+      </widget>
+     </item>
+
+     <item>
+      <widget class="QPushButton" name="btn_vertodo_compra">
+       <property name="text">
+        <string>Ver Todo</string>
+       </property>
+      </widget>
+     </item>
+
+     <item>
+      <widget class="QPushButton" name="btn_eliminar_compra">
+       <property name="text">
+        <string>Eliminar</string>
+       </property>
+      </widget>
+     </item>
+
+    </layout>
+   </item>
+
+   <!-- BUSCADOR -->
+   <item>
+    <layout class="QHBoxLayout" name="searchLayout">
+
+     <item>
+      <widget class="QLabel" name="label_buscar">
+       <property name="text">
+        <string>Buscar:</string>
+       </property>
+      </widget>
+     </item>
+
+     <item>
+      <widget class="QLineEdit" name="txt_buscar_compra"/>
+     </item>
+
+     <item>
+      <widget class="QPushButton" name="btn_buscar_compra">
+       <property name="text">
+        <string>BUSCAR</string>
+       </property>
+      </widget>
+     </item>
+
+    </layout>
+   </item>
+
+   <!-- TABLA -->
+   <item>
+    <widget class="QTableView" name="tbl_compra"/>
+   </item>
+
+  </layout>
+ </widget>
+
+ <resources/>
+ <connections/>
+</ui>
