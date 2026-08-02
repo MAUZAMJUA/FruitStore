@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>frm_producto</class>
+ <widget class="QFrame" name="frm_producto">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1400</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Producto</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #F8FAFC;</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="1" column="0">
+      <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <family>MS Shell Dlg 2</family>
+         <pointsize>26</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::RightToLeft</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #166534;
+color: #FFFFFF;
+font-weight: bold;
+padding-left: 10px;</string>
+       </property>
+       <property name="text">
+        <string>PRODUCTO</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_12">
+       <property name="styleSheet">
+        <string notr="true">background-color: #111827;
+color: #F8FAFC;
+font-weight: bold;
+padding-left: 6px;</string>
+       </property>
+       <property name="text">
+        <string></string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #F1F5F9;
+color: #111827;
+font-weight: bold;
+padding: 4px;</string>
+       </property>
+       <property name="text">
+        <string>ID:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="txt_id_prod">
+       <property name="font">
+        <font>
+         <family>Perpetua</family>
+         <pointsize>16</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #FFFFFF;
+color: #111827;
+border: 1px solid #CBD5E1;
+border-radius: 6px;
+padding: 6px;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLabel" name="label_3">
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #F1F5F9;
+color: #111827;
+font-weight: bold;
+padding: 4px;</string>
+       </property>
+       <property name="text">
+        <string>NOMBRE:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QLineEdit" name="txt_nombre_prod">
+       <property name="font">
+        <font>
+         <family>Perpetua</family>
+         <pointsize>16</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #FFFFFF;
+color: #111827;
+border: 1px solid #CBD5E1;
+border-radius: 6px;
+padding: 6px;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_5">
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #F1F5F9;
+color: #111827;
+font-weight: bold;
+padding: 4px;</string>
+       </property>
+       <property name="text">
+        <string>PRECIO COMPRA:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="txt_precio_compra_prod">
+       <property name="font">
+        <font>
+         <family>Perpetua</family>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #FFFFFF;
+color: #111827;
+border: 1px solid #CBD5E1;
+border-radius: 6px;
+padding: 6px;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLabel" name="label_6">
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #F1F5F9;
+color: #111827;
+font-weight: bold;
+padding: 4px;</string>
+       </property>
+       <property name="text">
+        <string>PRECIO VENTA:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QLineEdit" name="txt_precio_venta_prod">
+       <property name="font">
+        <font>
+         <family>Perpetua</family>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #FFFFFF;
+color: #111827;
+border: 1px solid #CBD5E1;
+border-radius: 6px;
+padding: 6px;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_7">
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #F1F5F9;
+color: #111827;
+font-weight: bold;
+padding: 4px;</string>
+       </property>
+       <property name="text">
+        <string>EXISTENCIA:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="txt_existencia_prod">
+       <property name="font">
+        <font>
+         <family>Perpetua</family>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #FFFFFF;
+color: #111827;
+border: 1px solid #CBD5E1;
+border-radius: 6px;
+padding: 6px;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QLabel" name="label_8">
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #F1F5F9;
+color: #111827;
+font-weight: bold;
+padding: 4px;</string>
+       </property>
+       <property name="text">
+        <string>CATEGORÍA:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_9">
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #F1F5F9;
+color: #111827;
+font-weight: bold;
+padding: 4px;</string>
+       </property>
+       <property name="text">
+        <string>ESTATUS:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="QComboBox" name="cmb_categoria_prod">
+       <property name="styleSheet">
+        <string notr="true">background-color: #FFFFFF;
+color: #111827;
+border: 1px solid #CBD5E1;
+border-radius: 6px;
+padding: 6px;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QCheckBox" name="chb_estatus_prod">
+       <property name="font">
+        <font>
+         <family>Yu Gothic UI</family>
+         <pointsize>16</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #FFFFFF;
+color: #111827;
+font-weight: bold;
+padding: 4px;</string>
+       </property>
+       <property name="text">
+        <string>ACTIVO</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QGridLayout" name="gridLayout_4">
+     <item row="0" column="0">
+      <widget class="QPushButton" name="btn_modificar_prod">
+       <property name="font">
+        <font>
+         <family>Nirmala Text</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #2563EB;
+color: #FFFFFF;
+border: none;
+border-radius: 6px;
+padding: 7px;
+font-weight: bold;</string>
+       </property>
+       <property name="text">
+        <string>MODIFICAR</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPushButton" name="btn_eliminar_prod">
+       <property name="font">
+        <font>
+         <family>Nirmala Text</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #DC2626;
+color: #FFFFFF;
+border: none;
+border-radius: 6px;
+padding: 7px;
+font-weight: bold;</string>
+       </property>
+       <property name="text">
+        <string>ELIMINAR</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QPushButton" name="btn_ver_prod">
+       <property name="font">
+        <font>
+         <family>Nirmala Text</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #334155;
+color: #FFFFFF;
+border: none;
+border-radius: 6px;
+padding: 7px;
+font-weight: bold;</string>
+       </property>
+       <property name="text">
+        <string>VER TODO</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QGridLayout" name="gridLayout_5">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #F1F5F9;
+color: #111827;
+font-weight: bold;
+padding: 4px;</string>
+       </property>
+       <property name="text">
+        <string>BUSCAR:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="txt_buscar_prod">
+       <property name="styleSheet">
+        <string notr="true">background-color: #FFFFFF;
+color: #111827;
+border: 1px solid #CBD5E1;
+border-radius: 6px;
+padding: 6px;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QPushButton" name="btn_buscar_prod">
+       <property name="font">
+        <font>
+         <family>Nirmala Text</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #334155;
+color: #FFFFFF;
+border: none;
+border-radius: 6px;
+padding: 7px;
+font-weight: bold;</string>
+       </property>
+       <property name="text">
+        <string>BUSCAR</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="0" column="0">
+      <widget class="QTableWidget" name="tbl_prod">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>220</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QTableWidget {
+    background-color: #FFFFFF;
+    color: #111827;
+    gridline-color: #CBD5E1;
+    border: 1px solid #CBD5E1;
+    selection-background-color: #DCFCE7;
+    selection-color: #111827;
+}
+QHeaderView::section {
+    background-color: #E2E8F0;
+    color: #111827;
+    font-weight: bold;
+    padding: 5px;
+    border: 1px solid #CBD5E1;
+}</string>
+       </property>
+       <property name="alternatingRowColors">
+        <bool>true</bool>
+       </property>
+       <property name="selectionMode">
+        <enum>QAbstractItemView::SingleSelection</enum>
+       </property>
+       <property name="selectionBehavior">
+        <enum>QAbstractItemView::SelectRows</enum>
+       </property>
+       <column>
+        <property name="text">
+         <string>ID</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>NOMBRE</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>CATEGORIA</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>PRECIO COMPRA</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>PRECIO VENTA</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>EXISTENCIA</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>ESTATUS</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
