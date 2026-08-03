@@ -29,7 +29,6 @@ class FrameVenta(base_class, ui_form):
     def __agregarListeners(self):
         self.btn_insertar_vent.clicked.connect(self.__insertar_venta)
         self.btn_eliminar_vent.clicked.connect(self.__eliminar_venta)
-        self.btn_modificar_vent.clicked.connect(self.__modificar_venta)
         self.btn_vertodo_vent.clicked.connect(self.__ver_venta)
         self.btn_buscar_vent.clicked.connect(self.__buscar_venta)
         self.tbl_vent.itemClicked.connect(self.__seleccionar_venta)
