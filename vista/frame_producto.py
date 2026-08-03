@@ -27,7 +27,6 @@ class FrameProducto(base_class, ui_form):
         self.__ver_producto()
 
     def __agregarListeners(self):
-        self.btn_insertar_prod.clicked.connect(self.__insertar_producto)
         self.btn_eliminar_prod.clicked.connect(self.__eliminar_producto)
         self.btn_modificar_prod.clicked.connect(self.__modificar_producto)
         self.btn_ver_prod.clicked.connect(self.__ver_producto)
