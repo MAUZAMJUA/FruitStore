@@ -29,7 +29,6 @@ class FrameCompra(base_class, ui_form):
     def __agregarListeners(self):
         self.btn_insertar_comp.clicked.connect(self.__insertar_compra)
         self.btn_eliminar_comp.clicked.connect(self.__eliminar_compra)
-        self.btn_modificar_comp.clicked.connect(self.__modificar_compra)
         self.btn_vertodo_comp.clicked.connect(self.__ver_compra)
         self.btn_buscar_comp.clicked.connect(self.__buscar_compra)
         self.tbl_comp.itemClicked.connect(self.__seleccionar_compra)
